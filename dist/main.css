@@ -1,0 +1,36 @@
+:root {
+   --background-img: url(../dist/img/background-img.jpeg);
+}
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background: var(--background-img);
+   background-attachment: fixed;
+   background-size: cover;
+   font: 400 1.9rem 'Neucha', cursive;
+   color: #fff;
+}
+
+.main-title {
+   display: flex;
+   padding: 10rem 20rem;
+   line-height: 2rem;
+}
+
+.btn-acess {
+   display: flex;
+   width: 20rem;
+   height: 8rem;
+
+   font: 700 5rem 'Neucha', cursive;
+   box-sizing: content-box;
+   padding: 5rem 10rem;
+   border-radius: .2rem;
+   align-self: center;
+   border: 5px solid #fff;
+   margin: 10rem 10rem;
+   overflow: hidden;
+}
