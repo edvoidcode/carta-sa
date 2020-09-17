@@ -3,7 +3,7 @@
    "version": "1.0.0",
    "description": "Pagina para ter acesso a Menus",
    "main": "index.js",
-   "homepage": "https://github.com/edvoidcode/carta-sa#readme",
+   "homepage": "https://github.com/edvoidcode/carta-sa",
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "sass": "node-sass -w scss/ -o dist/css/ --recursive"

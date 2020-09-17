@@ -22,7 +22,7 @@ body {
 header {
   margin: 0;
   padding: 0;
-  min-height: 15vh;
+  min-height: 35vh;
 }
 
 .div-logo {
@@ -31,37 +31,40 @@ header {
 }
 
 img {
-  height: 14rem;
-  width: 14rem;
+  height: 18rem;
+  width: 18rem;
 }
 
 main {
-  min-height: 50vh;
+  min-height: 35vh;
 }
 
-.main-title {
-  display: flex;
-  height: 6rem;
-  line-height: 2rem;
-  box-sizing: content-box;
+// .main-title {
+//   display: flex;
+//   height: 6rem;
+//   line-height: 2rem;
+//   box-sizing: content-box;
 
-  font: 700 2.7rem "Roboto", sans-serif;
-  color: $primary-color;
-  justify-content: center;
-  margin-bottom: 2rem;
-  z-index: 1;
-}
+//   font: 700 2.7rem "Roboto", sans-serif;
+//   color: $primary-color;
+//   justify-content: center;
+//   margin-bottom: 2rem;
+//   z-index: 1;
+// }
 
 .main-btns {
   display: flex;
   justify-content: center;
+  height: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .btn-acess {
   cursor: pointer;
   width: 10rem;
   height: 3.2rem;
-  border: 2.8px solid $primary-color;
+  border: 4px solid $primary-color;
   margin: 1rem 2rem;
 
   a {
@@ -75,7 +78,7 @@ main {
     text-decoration: none;
   }
   :hover {
-    //  color: $primary-color;
+    color: darken($primary-color, 10);
     transform: scale(1.2);
 
     @include easeOut;
@@ -101,11 +104,11 @@ main {
 }
 
 footer {
-  min-height: 10vh;
+  min-height: 30vh;
   margin-bottom: 0;
 
   p {
-    margin-top: 0.5rem;
+    margin-top: 0rem;
     display: flex;
     justify-content: center;
     align-content: center;
