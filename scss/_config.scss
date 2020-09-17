@@ -1,0 +1,11 @@
+$bg-img: url(../img/background-img.jpeg);
+$primary-color: #ffffff;
+$secondary-color: #444;
+
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
+
+@mixin easeIN {
+  transition: all 0.5s ease-in;
+}
