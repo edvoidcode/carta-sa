@@ -5,7 +5,7 @@
    "main": "index.js",
    "homepage": "https://edvoidcode.github.io/carta-sa/",
    "scripts": {
-      "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+      "sass": "node-sass -w scss/ -o dist/css/main --recursive",
       "deploy": "gh-pages -d dist"
    },
    "author": "edvoid",
