@@ -2,7 +2,7 @@
    "name": "carta-sa",
    "version": "1.0.0",
    "description": "Pagina para ter acesso a Menus",
-   "main": "index.js",
+   "main": "index.html",
    "homepage": "https://edvoidcode.github.io/carta-sa/",
    "scripts": {
       "sass": "node-sass -w scss/ -o dist/css/main --recursive",
