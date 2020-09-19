@@ -1,0 +1,133 @@
+@import "config";
+@import "mobile";
+
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+#bg-img {
+  background-image: $bg-img;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  min-height: 35vh;
+}
+
+.div-logo {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 18rem;
+  width: 18rem;
+}
+
+main {
+  min-height: 35vh;
+}
+
+// .main-title {
+//   display: flex;
+//   height: 6rem;
+//   line-height: 2rem;
+//   box-sizing: content-box;
+
+//   font: 700 2.7rem "Roboto", sans-serif;
+//   color: $primary-color;
+//   justify-content: center;
+//   margin-bottom: 2rem;
+//   z-index: 1;
+// }
+
+.main-btns {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.btn-acess {
+  cursor: pointer;
+  width: 10rem;
+  height: 3.2rem;
+  border: 4px solid $primary-color;
+  margin: 1rem 2rem;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    font: 700 1.2rem "Roboto", sans-serif;
+    color: $primary-color;
+    text-decoration: none;
+  }
+  :hover {
+    color: darken($primary-color, 10);
+    transform: scale(1.2);
+
+    @include easeOut;
+  }
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.icons a {
+  color: $primary-color;
+  margin-left: 1.5rem;
+
+  :hover {
+    //  color: #444;
+    transform: scale(1.2);
+    @include easeOut;
+  }
+}
+
+footer {
+  min-height: 30vh;
+  margin-bottom: 0;
+
+  p {
+    margin-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font: 200 1rem "Roboto", sans-serif;
+    color: $primary-color;
+  }
+}
+
+//MENU-PT Page
+
+// #PT {
+//   box-sizing: content-box;
+//   background-color: $primary-color;
+//   overflow: hidden;
+// }
+
+// .menu-pt {
+//   position: absolute;
+//   display: flex;
+//   width: 1000%;
+//   justify-content: center;
+// }
