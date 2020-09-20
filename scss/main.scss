@@ -1,5 +1,4 @@
 @import "config";
-@import "mobile";
 
 * {
   box-sizing: content-box;
@@ -30,7 +29,8 @@ header {
   justify-content: center;
 }
 
-img {
+.logo-img {
+  display: flex;
   height: 18rem;
   width: 18rem;
 }
@@ -38,19 +38,6 @@ img {
 main {
   min-height: 35vh;
 }
-
-// .main-title {
-//   display: flex;
-//   height: 6rem;
-//   line-height: 2rem;
-//   box-sizing: content-box;
-
-//   font: 700 2.7rem "Roboto", sans-serif;
-//   color: $primary-color;
-//   justify-content: center;
-//   margin-bottom: 2rem;
-//   z-index: 1;
-// }
 
 .main-btns {
   display: flex;
@@ -107,7 +94,7 @@ footer {
   min-height: 30vh;
   margin-bottom: 0;
 
-  p {
+  .copy {
     margin-top: 0rem;
     display: flex;
     justify-content: center;
@@ -117,17 +104,4 @@ footer {
   }
 }
 
-//MENU-PT Page
-
-// #PT {
-//   box-sizing: content-box;
-//   background-color: $primary-color;
-//   overflow: hidden;
-// }
-
-// .menu-pt {
-//   position: absolute;
-//   display: flex;
-//   width: 1000%;
-//   justify-content: center;
-// }
+@import "mobile";
