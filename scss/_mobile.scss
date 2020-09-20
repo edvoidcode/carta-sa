@@ -1,0 +1,45 @@
+@include mediaXL {
+}
+
+@include mediaLg {
+}
+
+@include mediaMd {
+}
+
+@include mediaSm {
+  header .div-logo {
+    height: 30vh;
+  }
+
+  .logo-img {
+    position: relative;
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .main-btns {
+    display: grid;
+    row-gap: 1rem;
+
+    height: 11rem;
+    padding: 2rem;
+    margin: 1rem 0;
+  }
+
+  .icons {
+    padding: 1rem;
+  }
+
+  .icons a {
+    align-items: center;
+    margin: 0 1rem;
+  }
+
+  .copy {
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
