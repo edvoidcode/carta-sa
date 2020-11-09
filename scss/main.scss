@@ -84,7 +84,7 @@ main {
   margin-left: 1.5rem;
 
   :hover {
-    //  color: #444;
+   //   color: #444;
     transform: scale(1.2);
     @include easeOut;
   }
@@ -92,11 +92,12 @@ main {
 
 footer {
   min-height: 30vh;
-  margin-bottom: 0;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .copy {
-    margin-top: 0rem;
-    display: flex;
+    margin-bottom: 8rem;
+    display: block;
     justify-content: center;
     align-content: center;
     font: 200 1rem "Roboto", sans-serif;
