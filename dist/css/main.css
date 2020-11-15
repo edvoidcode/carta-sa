@@ -7,6 +7,8 @@
 body {
    background-color: rgba(0, 0, 0, 0.7);
    width: 100%;
+   /* font: 700 1.2rem "Roboto", sans-serif; */
+   font: 700 1.2rem 'Open Sans', sans-serif;
 }
 
 #bg-img {
@@ -58,7 +60,7 @@ main {
    justify-content: center;
    align-items: center;
    height: 100%;
-   font: 700 1.2rem "Roboto", sans-serif;
+
    color: #f5fffb;
    text-decoration: none;
 }
@@ -98,7 +100,7 @@ footer .copy {
    display: block;
    justify-content: center;
    align-content: center;
-   font: 200 1rem "Roboto", sans-serif;
+   font: 200 1rem "Open sans", sans-serif;
    color: #f5fffb;
 }
 
