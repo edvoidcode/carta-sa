@@ -1,107 +1,141 @@
 * {
-  box-sizing: content-box;
-  margin: 0;
-  padding: 0; }
+   box-sizing: content-box;
+   margin: 0;
+   padding: 0;
+}
 
 body {
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 100%; }
+   background-color: rgba(0, 0, 0, 0.7);
+   width: 100%;
+   /* font: 700 1.2rem "Roboto", sans-serif; */
+   font: 700 1.2rem 'Open Sans', sans-serif;
+}
 
 #bg-img {
-  background-image: url(../img/background-img.jpeg);
-  background-size: cover;
-  background-attachment: fixed;
-  overflow: hidden; }
+   background-image: url(../img/background-img.jpeg);
+   background-size: cover;
+   background-attachment: fixed;
+   overflow: hidden;
+}
 
 header {
-  margin: 0;
-  padding: 0;
-  min-height: 35vh; }
+   margin: 0;
+   padding: 0;
+   min-height: 35vh;
+}
 
 .div-logo {
-  display: flex;
-  justify-content: center; }
+   display: flex;
+   justify-content: center;
+}
 
 .logo-img {
-  display: flex;
-  height: 18rem;
-  width: 18rem; }
+   display: flex;
+   height: 18rem;
+   width: 18rem;
+}
 
 main {
-  min-height: 35vh; }
+   min-height: 35vh;
+}
 
 .main-btns {
-  display: flex;
-  justify-content: center;
-  height: 5rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
+   display: flex;
+   justify-content: center;
+   height: 5rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
 
 .btn-acess {
-  cursor: pointer;
-  width: 10rem;
-  height: 3.2rem;
-  border: 4px solid #f5fffb;
-  margin: 1rem 2rem; }
-  .btn-acess a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    font: 700 1.2rem "Roboto", sans-serif;
-    color: #f5fffb;
-    text-decoration: none; }
-  .btn-acess :hover {
-    color: #c2ffe7;
-    transform: scale(1.2);
-    transition: all 0.5s ease-out; }
+   cursor: pointer;
+   width: 10rem;
+   height: 3.2rem;
+   border: 4px solid #f5fffb;
+   margin: 1rem 2rem;
+}
+
+.btn-acess a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+
+   color: #f5fffb;
+   text-decoration: none;
+}
+
+.btn-acess :hover {
+   color: #c2ffe7;
+   transform: scale(1.2);
+   transition: all 0.5s ease-out;
+}
 
 .icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem; }
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1rem;
+}
 
 .icons a {
-  color: #f5fffb;
-  margin-left: 1.5rem; }
-  .icons a :hover {
-    transform: scale(1.2);
-    transition: all 0.5s ease-out; }
+   color: #f5fffb;
+   margin-left: 1.5rem;
+}
+
+.icons a :hover {
+   transform: scale(1.2);
+   transition: all 0.5s ease-out;
+}
 
 footer {
-  min-height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  footer .copy {
-    margin-bottom: 8rem;
-    display: block;
-    justify-content: center;
-    align-content: center;
-    font: 200 1rem "Roboto", sans-serif;
-    color: #f5fffb; }
+   min-height: 30vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer .copy {
+   margin-bottom: 8rem;
+   display: block;
+   justify-content: center;
+   align-content: center;
+   font: 200 1rem "Open sans", sans-serif;
+   color: #f5fffb;
+}
 
 @media screen and (max-width: 500px) {
-  header .div-logo {
-    height: 30vh; }
-  .logo-img {
-    position: relative;
-    height: 15rem;
-    width: 15rem; }
-  .main-btns {
-    display: grid;
-    row-gap: 1rem;
-    height: 11rem;
-    padding: 2rem;
-    margin: 1rem 0; }
-  .icons {
-    padding: 1rem; }
-  .icons a {
-    align-items: center;
-    margin: 0 1rem; }
-  .copy {
-    display: flex;
-    padding-top: 1rem;
-    align-items: center;
-    justify-content: center; } }
+   header .div-logo {
+      height: 30vh;
+   }
+
+   .logo-img {
+      position: relative;
+      height: 15rem;
+      width: 15rem;
+   }
+
+   .main-btns {
+      display: grid;
+      row-gap: 1rem;
+      height: 11rem;
+      padding: 2rem;
+      margin: 1rem 0;
+   }
+
+   .icons {
+      padding: 1rem;
+   }
+
+   .icons a {
+      align-items: center;
+      margin: 0 1rem;
+   }
+
+   .copy {
+      display: flex;
+      padding-top: 1rem;
+      align-items: center;
+      justify-content: center;
+   }
+}
